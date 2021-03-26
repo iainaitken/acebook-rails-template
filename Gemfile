@@ -12,7 +12,7 @@ gem 'rubocop-rails', require: false
 gem 'simplecov', require: false, group: :test
 gem 'rubocop-rspec', require: false
 gem 'coveralls_reborn', '~> 0.21.0', require: false
-# gem 'travis'
+gem 'mimemagic', '~> 0.3.6'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.0'
@@ -36,7 +36,7 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-gem 'travis'
+# gem 'travis'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -55,3 +55,4 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'mimemagic', '~> 0.3.6'
