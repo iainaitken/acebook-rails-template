@@ -1,6 +1,12 @@
 <%= form_for @post do |form| %>
   <%= form.label :message %>
   <%= form.text_area :message %>
+  <br>
+  <br>
 
+  <%= form.label :image %>
+  <%= form.file_field :image %>  
+
+  <br>
   <%= form.submit "Submit" %>
 <% end %>
