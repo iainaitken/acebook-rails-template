@@ -1,16 +1,20 @@
 class UsersController < ApplicationController
   def index
+    
   end
 
   def new
-    @user = User.new
+    @new_user = User.new
   end
 
   def create
-    @user = User.create(sign_up_params)
-    if @user.save
+    @new_user = User.create(sign_up_params)
+    if @new_user.save
+      p "user saved"
       redirect_to posts_url
+      return
     else
+      p "print else activated"
       render :new
     end
   end

@@ -4,8 +4,11 @@ Rails.application.routes.draw do
   root 'users#index'
   
   get '/sign_up', to: 'users#new'
+  # post '/sign_up', to: 'users#new'
 
   post '/sign_up', to: 'users#create'
 
+  # resources :users
   resources :posts
 end
+
