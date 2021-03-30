@@ -8,6 +8,8 @@ Rails.application.routes.draw do
 
   post '/sign_up', to: 'users#create'
 
+  get '/posts', to: 'posts#index'
+
   # resources :users
   resources :posts
 end

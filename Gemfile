@@ -10,6 +10,7 @@ gem 'simplecov', require: false, group: :test
 gem 'rubocop-rspec', require: false
 gem 'coveralls_reborn', '~> 0.21.0', require: false
 gem 'mimemagic', '~> 0.3.7'
+gem 'webpacker', '~> 3.5'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.0'
 # Use postgresql as the database for Active Record

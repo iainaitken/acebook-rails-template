@@ -12,7 +12,6 @@ class UsersController < ApplicationController
     if @new_user.save
       p "user saved"
       redirect_to posts_url
-      return
     else
       p "print else activated"
       render :new
