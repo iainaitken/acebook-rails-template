@@ -1,7 +1,34 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/Rorie/Projects/week_8/acebook-team-gets-railed/app/models/user.rb": {
+        "lines": [
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/Rorie/Projects/week_8/acebook-team-gets-railed/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
       "/Users/Rorie/Projects/week_8/acebook-team-gets-railed/app/helpers/application_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/Rorie/Projects/week_8/acebook-team-gets-railed/app/helpers/users_helper.rb": {
         "lines": [
           1,
           null
@@ -16,23 +43,24 @@
       "/Users/Rorie/Projects/week_8/acebook-team-gets-railed/app/controllers/posts_controller.rb": {
         "lines": [
           1,
-          1,
-          5,
-          null,
           null,
           1,
-          6,
-          6,
+          0,
           null,
           null,
           1,
-          8,
+          0,
+          0,
+          null,
+          null,
+          1,
+          0,
           null,
           null,
           1,
           null,
           1,
-          6,
+          0,
           null,
           null
         ]
@@ -41,6 +69,8 @@
         "lines": [
           1,
           1,
+          1,
+          null,
           null
         ]
       },
@@ -52,23 +82,6 @@
       },
       "/Users/Rorie/Projects/week_8/acebook-team-gets-railed/app/models/post.rb": {
         "lines": [
-          1,
-          null
-        ]
-      },
-      "/Users/Rorie/Projects/week_8/acebook-team-gets-railed/app/models/application_record.rb": {
-        "lines": [
-          1,
-          1,
-          null
-        ]
-      },
-      "/Users/Rorie/Projects/week_8/acebook-team-gets-railed/app/models/user.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
           1,
           null
         ]
@@ -86,6 +99,38 @@
       "/Users/Rorie/Projects/week_8/acebook-team-gets-railed/app/jobs/application_job.rb": {
         "lines": [
           0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/Rorie/Projects/week_8/acebook-team-gets-railed/app/controllers/users_controller.rb": {
+        "lines": [
+          0,
+          0,
+          null,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
           0
         ],
         "branches": {
@@ -112,6 +157,6 @@
         }
       }
     },
-    "timestamp": 1617026506
+    "timestamp": 1617189912
   }
 }

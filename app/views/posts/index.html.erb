@@ -12,7 +12,9 @@
   <p class="time"><%= post.created_at.strftime("%d/%m/%Y" + "  " + "%k:%M %p") %></p>
 <% end %>
 
+<%= link_to "New Post", "http://localhost:3000/posts/new" %><br>
+
 <%= link_to "Sign out", destroy_user_session_path, :method => :delete %>
 
-<%# <%= link_to new_post_path do %>
-  <%# New post %>
+
+
