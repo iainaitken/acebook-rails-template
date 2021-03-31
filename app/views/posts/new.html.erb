@@ -1,6 +1,10 @@
 <%= form_for @post do |form| %>
   <%= form.label :message %>
   <%= form.text_area :message %>
+  
+  <%= form.hidden_field :userhandle, value: current_user.userhandle %>
+
 
   <%= form.submit "Submit" %>
 <% end %>
+

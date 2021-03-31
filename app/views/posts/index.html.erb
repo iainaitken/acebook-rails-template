@@ -8,9 +8,12 @@
 
 
 <% @posts.each do |post| %>
+  <p class="user_handle"><%= "@" + post.userhandle %></p>
   <p class="post"><%= post.message %></p>
   <p class="time"><%= post.created_at.strftime("%d/%m/%Y" + "  " + "%k:%M %p") %></p>
-<% end %>
+  
+<% end %><br>
+
 
 <%= link_to "New Post", "http://localhost:3000/posts/new" %><br>
 
