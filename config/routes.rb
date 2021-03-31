@@ -2,12 +2,17 @@ Rails.application.routes.draw do
   devise_for :users
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 
-  root 'users#index'
+  root 'posts#index'
   
-  get '/sign_up', to: 'users#new'
-  # post '/sign_up', to: 'users#new'
+  # get '/sign_up', to: 'users#new'
+  # # post '/sign_up', to: 'users#new'
 
-  post '/sign_up', to: 'users#create'
+  # post '/sign_up', to: 'users#create'
+
+  
+  devise_scope :user do
+  get '/users/sign_out' => 'devise/sessions#destroy'
+  end
 
   get '/posts', to: 'posts#index'
 
